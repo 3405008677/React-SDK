@@ -27,7 +27,7 @@ export default ({ mode }: ConfigEnv): UserConfig => {
       viteConfig.resolve = {
         alias: {
           "@": pathResolve("src"),
-          "#": pathResolve("type"),
+          "#": pathResolve("types"),
         },
       };
     }
@@ -122,7 +122,7 @@ function lib(viteEnv: ViteEnv, rootPath: string): UserConfig {
     reportCompressedSize: true, //启用gzip压缩大小报告
 
     lib: {
-      entry: path.resolve(__dirname, "src/index.ts"),
+      entry: path.resolve(__dirname, "assistance/lib.ts"),
       // entry: path.resolve(__dirname, "src/main.tsx"),
       // entry: path.resolve(__dirname, "src/App.tsx"),
       name: "lib",

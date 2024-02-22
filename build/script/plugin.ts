@@ -16,7 +16,7 @@ export function createVitePlugins(viteEnv: ViteEnv) {
   vitePlugins.push(
     AutoImport({
       imports: ["react"],
-      dts: pathResolve("types/AutoImportReact.d.ts"),
+      dts: pathResolve("/types/AutoImportReact.d.ts"),
     })
   );
 

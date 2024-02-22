@@ -1,4 +1,5 @@
 import {
+  defineConfig,
   presetAttributify,
   presetIcons,
   presetTypography,
@@ -7,8 +8,7 @@ import {
   transformerDirectives,
   transformerVariantGroup,
 } from "unocss";
-// @ts-ignore
-import { defineConfig } from "@unocss/core";
+
 export default defineConfig({
   shortcuts: [],
   theme: {
