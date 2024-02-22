@@ -1,2 +1,2 @@
 export * from "./main";
-export type * from "#/index";
+export type * from "assistance/type_export";

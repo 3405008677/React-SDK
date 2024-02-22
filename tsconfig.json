@@ -28,5 +28,5 @@
       "#/*": ["types/*"]
     }
   },
-  "include": ["src/**/*", "types/**/*", "build/**/*", "vite.config.ts"]
+  "include": ["src/**/*", "types/**/*", "assistance/**/*", "build/**/*", "vite.config.ts", "assistance/type_export.ts"]
 }
