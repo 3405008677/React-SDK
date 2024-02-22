@@ -22,7 +22,7 @@ export function createVitePlugins(viteEnv: ViteEnv) {
 
   vitePlugins.push(
     UnoCSS({
-      configFile: "/build/uno.config.ts",
+      configFile: "/build/config/uno.config.ts",
     })
   );
 

@@ -1,8 +1,8 @@
 import type { ConfigEnv, UserConfig, BuildOptions } from "vite";
 import { loadEnv } from "vite";
-import { createProxy } from "./build/proxy";
-import { createVitePlugins, createViteBuildPlugins, createViteLibPlugins } from "./build/plugin";
-import { pathResolve, wrapperEnv, getRootPath } from "./build/utils";
+import { createProxy } from "./build/script/proxy";
+import { createVitePlugins, createViteBuildPlugins, createViteLibPlugins } from "./build/script/plugin";
+import { pathResolve, wrapperEnv, getRootPath } from "./build/script/utils";
 import path from "path";
 
 export default ({ mode }: ConfigEnv): UserConfig => {
